@@ -32,8 +32,3 @@ pnpm-debug.log*
 
 # Optional: VSCode
 .vscode/
-
-# Optional: package manager lock files (si tu veux versionner qu’un seul type)
-# Si tu utilises npm, laisse package-lock.json, sinon ignore yarn.lock/pnpm-lock.yaml si tu ne les utilises pas
-# yarn.lock
-# pnpm-lock.yaml
