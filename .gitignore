@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+out/
+.vite/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files (si tu en ajoutes plus tard)
+.env
+.env.*.local
+
+# Vite cache
+.vite/
+
+# MacOS files
+*.DS_Store
+
+# Optional: VSCode
+.vscode/
+
+# Optional: package manager lock files (si tu veux versionner qu’un seul type)
+# Si tu utilises npm, laisse package-lock.json, sinon ignore yarn.lock/pnpm-lock.yaml si tu ne les utilises pas
+# yarn.lock
+# pnpm-lock.yaml
