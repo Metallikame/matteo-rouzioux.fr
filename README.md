@@ -42,4 +42,4 @@ Le site est automatiquement accessible via le domaine matteo-rouzioux.fr (et HTT
 Ce projet est sous licence MIT – libre de le forker, d’en réutiliser le code, etc.
 (Pense à modifier cette section si tu veux une autre licence ou garder tout droit réservé.)
 
-*Made with ❤️ by Matteo Rouzioux*
+*Made by Matteo Rouzioux*
