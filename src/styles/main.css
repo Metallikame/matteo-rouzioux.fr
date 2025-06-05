@@ -1,0 +1,19 @@
+.bg-primary {
+    background-color: #194d80 !important;
+}
+
+.text-primary {
+    color: #194d80 !important;
+}
+
+.border-primary {
+    border-color: #194d80 !important;
+}
+
+.font-title {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.font-body {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
