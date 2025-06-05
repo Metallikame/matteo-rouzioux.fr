@@ -30,9 +30,8 @@ jobs:
           node-version: 20
 
       # ---- AJOUT du clean pour npm10/rollup bug
-      - name: Remove node_modules and lockfile (fix npm+rollup bug)
-        run: |
-          rm -rf node_modules package-lock.json
+      - name: Remove node_modules (fix npm+rollup bug)
+        run: rm -rf node_modules
 
       - name: Install dependencies (npm ci)
         run: npm ci
