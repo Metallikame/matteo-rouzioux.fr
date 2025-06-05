@@ -33,11 +33,15 @@ jobs:
       - name: Remove node_modules (fix npm+rollup bug)
         run: rm -rf node_modules
 
-      - name: Install dependencies (npm ci)
+      - name: Install dependencies
         run: npm ci
+
+      - name: Install rollup native (fix build bug)
+        run: npm install --no-save @rollup/rollup-linux-x64-gnu
 
       - name: Build
         run: npm run build
+
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
