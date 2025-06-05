@@ -1,5 +1,5 @@
 {
-  "name": "Dev",
+  "name": "dev",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,6 +17,8 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
+    "bootstrap": "^5.3.6",
+    "lucide-react": "^0.513.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }
