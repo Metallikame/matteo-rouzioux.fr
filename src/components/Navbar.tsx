@@ -9,7 +9,7 @@ const Navbar = () => (
       >
         <img
           src="/Logo 1.png"
-          alt="Logo"
+          alt="Logo de Matteo Rouzioux"
           style={{ width: 40, height: 40, borderRadius: 8, marginRight: 8 }}
         />
         <span>Matteo Rouzioux</span>
