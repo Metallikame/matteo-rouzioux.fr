@@ -1,22 +1,26 @@
 import React from 'react';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
 import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import QuickContact from './components/QuickContact';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/main.css';
 
 const App = () => (
   <>
-    <Header />
+    <Navbar />
+    <HeroSection />
     <main>
       <Services />
       <About />
       <Contact />
     </main>
     <Footer />
+    <QuickContact />
   </>
 );
 

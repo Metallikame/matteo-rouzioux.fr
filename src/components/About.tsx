@@ -21,7 +21,8 @@ const About = () => (
             <br />
             <strong>
               Conseils personnalisés, interventions rapides, tarifs clairs !
-            </strong>
+            </strong><br/>
+            <i>Je travaille uniquement avec du matériel windows (pas de mac ou de linux)</i>
           </p>
         </div>
       </div>

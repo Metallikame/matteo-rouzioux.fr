@@ -15,6 +15,12 @@ const services = [
     desc: 'Remise à neuf logicielle, réinstallation propre de Windows.',
   },
   {
+    id: 'sauvegarde',
+    title: 'Sauvegarde de PC/disque dur',
+    icon: '💾',
+    desc: "Sauvegarde complète des données d'un PC ou disque dur.",
+  },
+  {
     id: 'perf',
     title: 'Optimisation des performances',
     icon: '⚡',
@@ -27,6 +33,12 @@ const services = [
     desc: 'Ajout/Mise à jour de mémoire, disque, etc.',
   },
   {
+    id: 'montage',
+    title: 'Montage de PC tour Windows',
+    icon: '🪛',
+    desc: 'Du choix des composants au montage du PC.',
+  },
+  {
     id: 'devis',
     title: 'Devis à 10€ déduit de la facture totale',
     icon: '📄',
@@ -37,7 +49,7 @@ const services = [
 const Services = () => (
   <section id="services" className="py-5">
     <div className="container">
-      <h2 className="text-primary text-center mb-4">Mes Services</h2>
+      <h2 className="text-primary text-center mb-4">Mes Services <h5>(Windows uniquement)</h5></h2>
       <div className="row justify-content-center">
         {services.map((service) => (
           <div className="col-12 col-md-6 col-lg-4 mb-4" key={service.id}>

@@ -1,3 +1,14 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 72px;
+}
+
+@media (max-width: 991.98px) {
+    html {
+        scroll-padding-top: 56px;
+    }
+}
+
 .bg-primary {
     background-color: #194d80 !important;
 }
@@ -16,4 +27,11 @@
 
 .font-body {
     font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.navbar-translucent {
+    background: rgba(255, 255, 255, 0.85) !important;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 2px 12px 0 rgba(25, 77, 128, 0.08);
+    transition: background 0.3s;
 }
