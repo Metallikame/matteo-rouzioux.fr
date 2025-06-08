@@ -7,7 +7,7 @@ const About = () => (
       <div className="row align-items-center">
         <div className="col-12 col-md-4 d-flex justify-content-center mb-3 mb-md-0">
           <img
-            src="/Logo.png"
+            src="/favicon.ico"
             alt="Matteo Rouzioux"
             className="rounded-circle border border-primary"
             style={{ width: '120px', height: '120px' }}

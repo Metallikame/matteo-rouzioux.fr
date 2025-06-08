@@ -8,7 +8,7 @@ const Navbar = () => (
         href="#hero"
       >
         <img
-          src="/Logo.png"
+          src="/favicon.ico"
           alt="Logo de Matteo Rouzioux"
           style={{ width: 40, height: 40, borderRadius: 8, marginRight: 8 }}
         />

@@ -9,7 +9,7 @@ const HeroSection = () => (
           style={{ flex: '0 0 120px' }}
         >
           <img
-            src="/Logo.png"
+            src="/favicon.ico"
             alt="Logo Matteo Rouzioux"
             style={{
               width: 120,
