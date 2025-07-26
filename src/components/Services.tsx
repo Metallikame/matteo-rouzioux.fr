@@ -5,7 +5,7 @@ import ServiceModal from './ServiceModal';
 const services = [
   {
     id: 'diagnostic',
-    title: 'Diagnostic à 10€ déduit de la facture totale',
+    title: 'Diagnostic rapide sur place ou en atelier',
     icon: '📄',
     desc: 'Fais le point avant toute intervention : un devis clair, sans surprise.',
     details: (
@@ -20,8 +20,8 @@ const services = [
       </>
     ),
     tarifs: [
-      'Diagnostic rapide (sur place) : 10 € (déduit si réparation)',
-      'Diagnostic approfondi (tests poussés en atelier) : 25 € (déduit si réparation)',
+      'Diagnostic rapide (sur place) : 15 €',
+      'Diagnostic approfondi (tests poussés en atelier) : 25 € (réduit à 15€ si réparation)',
     ],
   },
   {
@@ -65,7 +65,7 @@ const services = [
     ),
     tarifs: [
       'Installation/remplacement d’un composant : 25 € (hors matériel)',
-      'Pack installation + optimisation : 35 €',
+      'Pack installation + optimisation : 40 €',
     ],
   },
   {
