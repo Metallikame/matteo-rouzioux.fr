@@ -22,7 +22,7 @@ const About = () => (
             <strong>
               Conseils personnalisés, interventions rapides, tarifs clairs !
             </strong><br/>
-            J'interviens sur tout type de PC : d'une utilisation bureautique à un grosse configuration haut de gamme/gaming, en passant par le matériel professionnel.
+            J'interviens sur tout type de PC : d'une utilisation bureautique à une grosse configuration haut de gamme/gaming, en passant par le matériel professionnel.
             <br />
             <i>Je travaille uniquement avec du matériel windows (pas de mac ou de linux)</i>
           </p>
