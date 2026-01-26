@@ -20,8 +20,8 @@ const services = [
       </>
     ),
     tarifs: [
-      'Diagnostic rapide (sur place) : 15 €',
-      'Diagnostic approfondi (tests poussés en atelier) : 25 € (réduit à 15€ si réparation)',
+      'Diagnostic rapide (sur place)',
+      'Diagnostic approfondi (tests poussés en atelier)',
     ],
   },
   {
@@ -44,8 +44,8 @@ const services = [
       </>
     ),
     tarifs: [
-      'Optimisation complète : 30 €',
-      'Pack optimisation + conseils personnalisés : 40 €',
+      'Optimisation complète',
+      'Pack optimisation + conseils personnalisés',
     ],
   },
   {
@@ -64,8 +64,8 @@ const services = [
       </>
     ),
     tarifs: [
-      'Installation/remplacement d’un composant : 25 € (hors matériel)',
-      'Pack installation + optimisation : 40 €',
+      'Installation/remplacement d’un composant',
+      'Pack installation + optimisation',
     ],
   },
   {
@@ -87,9 +87,8 @@ const services = [
       </>
     ),
     tarifs: [
-      'Installation Windows (clé licence incluse) : 60 €',
-      'Installation Windows (clé non incluse) : 30 €',
-      'Mise à jour vers Windows 11 (sauvegarde/restauration de données incluse) : 45 €',
+      'Installation Windows',
+      'Mise à jour vers Windows 11 (sauvegarde/restauration de données incluse)',
     ],
   },
   {
@@ -108,8 +107,8 @@ const services = [
       </>
     ),
     tarifs: [
-      'Sauvegarde sur disque client : 25 €',
-      'Sauvegarde avec disque fourni : sur devis (en fonction de la capacité)',
+      'Sauvegarde sur disque client',
+      'Sauvegarde avec disque fourni',
     ],
   },
   {
@@ -141,9 +140,9 @@ const services = [
       </>
     ),
     tarifs: [
-      'Conseil et sélection des composants : 30 € (déduit si montage effectué)',
-      'Montage complet : 70 €',
-      'Installation de Windows + drivers : 20 € (en option)',
+      'Conseil et sélection des composants',
+      'Montage complet',
+      'Installation de Windows + drivers',
     ],
   },
   {
@@ -162,7 +161,7 @@ const services = [
         </p>
       </>
     ),
-    tarifs: ['Nettoyage complet : 25 €'],
+    tarifs: ['Nettoyage complet'],
   },
 ];
 
