@@ -97,7 +97,7 @@ const ServiceModal = ({ show, onClose, service }: ServiceModalProps) => {
               {service.tarifs && (
                 <>
                   <hr />
-                  <h6>Tarifs :</h6>
+                  <h6>Services :</h6>
                   <ul>
                     {service.tarifs.map((t) => (
                       <li key={t}>{t}</li>
