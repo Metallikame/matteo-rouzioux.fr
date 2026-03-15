@@ -25,6 +25,25 @@ const services = [
     ],
   },
   {
+    id: 'test',
+    title: 'Diagnostic rapide sur place ou en atelier',
+    icon: '📄',
+    desc: 'Fais le point avant toute intervention : un devis clair, sans surprise.',
+    details: (
+      <>
+        <br />
+        <p>
+         ose un devis transparent, déduit si tu fais
+          effectuer la réparation.
+        </p>
+      </>
+    ),
+    tarifs: [
+      'Diagnostic rapide (sur place)',
+      'Diagnostic approfondi (tests poussés en atelier)',
+    ],
+  },
+  {
     id: 'perf',
     title: 'Optimisation des performances',
     icon: '⚡',
